@@ -1,21 +1,30 @@
 # 🎓 AI Student Burnout Early Warning System
 
-## Project Overview
-The AI Student Burnout Early Warning System is a machine learning-based educational application designed to identify patterns associated with academic strain among students.
+An AI-powered educational tool designed to analyze student academic strain patterns and identify potential burnout risk levels using Machine Learning.
 
-It analyzes study hours, sleep duration, attendance, breaks, self-reported stress and assignment workload to generate an illustrative risk category.
+## 📌 Project Overview
 
-## Problem Statement
-Students may experience academic strain due to excessive study hours, insufficient sleep, high workloads and stress. This project explores how machine learning can help identify patterns that may indicate a need for better study-life balance.
+The AI Student Burnout Early Warning System helps understand how daily study hours, sleep patterns, attendance, breaks, stress levels, and assignment workload may contribute to academic strain.
 
-## Objectives
-- Analyze student academic and lifestyle patterns.
-- Identify low, medium and high academic strain risk categories.
-- Train and compare machine learning models.
-- Provide supportive suggestions.
-- Build an interactive Streamlit dashboard.
+The system analyzes student-related data and predicts academic strain risk as **Low, Medium, or High**, providing helpful suggestions to encourage healthier study habits.
 
-## Technologies Used
+## 🎯 Problem Statement
+
+Students often experience academic pressure due to excessive study hours, insufficient sleep, poor attendance, stress, and heavy assignment workloads.
+
+This project aims to provide an early educational warning system by analyzing these factors and identifying possible academic strain patterns.
+
+## ✨ Key Features
+
+- Student academic strain risk prediction.
+- Three risk categories: Low, Medium, and High.
+- Interactive Streamlit dashboard.
+- Student statistics and data visualization.
+- Dataset analysis and risk distribution.
+- Personalized educational suggestions based on input values.
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -24,90 +33,85 @@ Students may experience academic strain due to excessive study hours, insufficie
 - Scikit-learn
 - Streamlit
 
-## Machine Learning Algorithms
-1. Decision Tree Classifier
-2. Random Forest Classifier
+## 📊 Dataset Details
 
-## Input Features
+The project uses a synthetic dataset containing 1,000 student records.
+
+Features include:
 - Study Hours
 - Sleep Hours
-- Attendance
-- Breaks
+- Attendance Percentage
+- Breaks Per Day
 - Stress Level
 - Assignment Workload
 
-## Project Modules
+The risk labels are generated using predefined rules for this educational demonstration.
+
+## 🧠 Project Workflow
+
 1. Dataset Generation
-2. Exploratory Data Analysis
-3. Machine Learning Model Training
-4. Model Evaluation
-5. Streamlit Dashboard
-6. Academic Strain Risk Prediction
+2. Exploratory Data Analysis (EDA)
+3. Data Preprocessing
+4. Machine Learning Model Development
+5. Model Evaluation
+6. Streamlit Application Development
+7. Academic Strain Risk Prediction
 
-## Dataset
-This project uses 1,000 synthetically generated student records. The target labels are generated using predefined demonstration rules.
+## 📸 Application Screenshots
 
-## How to Run the Project
+### Dashboard Overview
+![Dashboard Overview](screenshots/overview.png)
 
-### 1. Clone the repository
+### Student Risk Prediction
+![Risk Prediction](screenshots/prediction.png)
+
+### Dataset Analysis
+![Dataset Analysis](screenshots/dataset_analysis.png)
+
+## ⚙️ Installation and Execution
+
+**Step 1: Clone the repository**
+
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/vbharathkumar894-cmd/AI-Student-Burnout-System.git
 ```
 
-### 2. Navigate to the project folder
+**Step 2: Navigate to the project folder**
+
 ```bash
-cd AI_Student_Burnout_System
+cd AI-Student-Burnout-System
 ```
 
-### 3. Create a virtual environment
+**Step 3: Create a virtual environment**
+
 ```bash
 python3 -m venv venv
 ```
 
-### 4. Activate the environment
+**Step 4: Activate the environment**
+
 ```bash
 source venv/bin/activate
 ```
 
-### 5. Install dependencies
+**Step 5: Install dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 6. Generate the dataset
-```bash
-python3 dataset.py
-```
+**Step 6: Run the application**
 
-### 7. Run EDA
-```bash
-python3 eda.py
-```
-
-### 8. Train the machine learning models
-```bash
-python3 model.py
-```
-
-### 9. Launch the application
 ```bash
 streamlit run app.py
 ```
 
-## Expected Outcome
-An interactive dashboard that allows users to enter student details, view an illustrative academic strain risk category and receive supportive suggestions.
+## ⚠️ Disclaimer
 
-## Limitations
-- The dataset is synthetic.
-- Target labels are rule-generated.
-- Model performance does not establish real-world burnout prediction capability.
-- The application is not a medical or psychological diagnostic tool.
+This project is an educational demonstration based on synthetic data and rule-generated labels. It is not a medical or psychological diagnostic tool.
 
-## Future Enhancements
-- Use ethically collected real-world student data.
-- Improve model validation.
-- Add personalized wellness resources.
-- Introduce longitudinal student trend analysis.
+## 👩‍💻 Author
 
-## Disclaimer
-This project is developed for educational and demonstration purposes only.
+**Prasanna Papisetti**
+
+GitHub: [AI Student Burnout System](https://github.com/vbharathkumar894-cmd/AI-Student-Burnout-System)
